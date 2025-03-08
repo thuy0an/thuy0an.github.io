@@ -36,7 +36,6 @@ html {
 .personal {
     margin: 0;
     height: 100%;
-    width: 100%;
 }
 
 .personal-header {
@@ -95,6 +94,16 @@ h3 {
     font-weight: 700;
     margin-left: 4px;
 } */
+.col.span-1-of-3.personal h3::after {
+    content: "";
+    display: block;
+    width: 90%; /* Hoặc một giá trị phù hợp */
+    height: 2px;
+    background-color: white;
+    margin: 5px auto; /* Căn giữa nếu cần */
+}
+
+
 
 .main-heading ion-icon {
     display: inline-block;
