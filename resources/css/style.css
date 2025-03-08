@@ -75,14 +75,6 @@ h3 {
     padding-bottom: 5px;
 }
 
-.col.span-1-of-3.personal h3::after {
-    content: "";
-    display: block;
-    width: 0%; /* Hoặc một giá trị phù hợp */
-    height: 2px;
-    background-color: white;
-    margin: 5px auto; /* Căn giữa nếu cần */
-}
 
 .personal-header p {
     font-size: 80%;
