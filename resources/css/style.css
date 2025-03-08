@@ -75,13 +75,13 @@ h3 {
     padding-bottom: 5px;
 }
 
-h3::after {
+.col.span-1-of-3.personal h3::after {
     content: "";
     display: block;
-    width: 20%;
+    width: 90%; /* Hoặc một giá trị phù hợp */
     height: 2px;
-    background-color: white; /* Màu đen, bạn có thể thay đổi */
-    margin-top: 5px;
+    background-color: white;
+    margin: 5px auto; /* Căn giữa nếu cần */
 }
 
 .personal-header p {
