@@ -39,7 +39,8 @@ html {
 }
 
 .personal-header {
-    background-color: rgba(0, 0, 0, 0.2);
+        background-color: #2A48AA;
+/*     background-color: rgba(0, 0, 0, 0.2); */
     padding: 30px 0;
 }
 
