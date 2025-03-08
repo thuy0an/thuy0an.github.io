@@ -7,7 +7,7 @@
 html {
     background-color: #eee;
     color: #555;
-    font-family: 'Roboto', 'Arial', 'Tahoma', 'Noto Sans', sans-serif;
+    font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -17,7 +17,7 @@ html {
 .row {
     max-width: 960px;
     margin: 0 auto;
-    background-color: #2A48AA;
+    background-color: #42a8c0;
     box-shadow: -3px 3px 3px 0px rgba(200,200,200, 0.9);
 }
 
@@ -39,13 +39,12 @@ html {
 }
 
 .personal-header {
-        background-color: #2A48AA;
-/*     background-color: rgba(0, 0, 0, 0.2); */
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 30px 0;
 }
 
 .personal-header img {
-    width: 100px;
+    width: 80px;
     height: auto;
     margin: 0 auto;
     border-radius: 50%;
@@ -64,20 +63,13 @@ h2 {
     font-size: 100%;
     font-weight: 700;
     text-transform: uppercase;
-    color: #2A48AA;
+    color: #42a8c0;
     display: inline-block;
     margin-left: 5px;
 }
 
-h3 {
-    position: relative;
-    padding-bottom: 5px;
-}
-
-
 .personal-header p {
     font-size: 80%;
-    
     color: rgba(255, 255, 255, 0.8);
     margin: 5px auto;
     text-align: center;
@@ -89,26 +81,16 @@ h3 {
 
 /* .main-heading p {
     display: inline-block;
-    color: #2A48AA;
+    color: #42a8c0;
     font-size: 120%;
     font-weight: 700;
     margin-left: 4px;
 } */
-.col.span-1-of-3.personal h3::after {
-    content: "";
-    display: block;
-    width: 90%; /* Hoặc một giá trị phù hợp */
-    height: 2px;
-    background-color: white;
-    margin: 5px auto; /* Căn giữa nếu cần */
-}
-
-
 
 .main-heading ion-icon {
     display: inline-block;
-    background-color: #2A48AA;
-    border: 2px solid #2A48AA;
+    background-color: #42a8c0;
+    border: 2px solid #42a8c0;
     border-radius: 50%;
     color: white;
     padding: 2px;
@@ -238,7 +220,7 @@ h3 {
 .exp-project a {
     display: block;
     text-decoration: none;
-    color: #2A48AA;
+    color: #42a8c0;
     font-size: 80%;
 }
 
@@ -273,8 +255,6 @@ h3 {
 }
 
 .skill-fg {
-    background: #2A48AA;
+    background: #42a8c0;
     height: 100%;
 }
-
-
