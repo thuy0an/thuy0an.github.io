@@ -210,7 +210,6 @@ h3::after {
 }
 
 .exp-title {
-    font-weight: 700;
     float: left;
     font-size: 18px;
 }
@@ -223,7 +222,6 @@ h3::after {
 }
 
 .exp-place {
-    font-weight: 400;
     opacity: 0.8;
     font-size: 14px;
     margin-top: 2px;
