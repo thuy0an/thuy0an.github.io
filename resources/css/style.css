@@ -4,6 +4,31 @@
     box-sizing: border-box;
 }
 
+tml, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    min-height: 100vh; /* Đảm bảo row chiếm toàn bộ chiều cao viewport */
+}
+
+.personal {
+    background-color: #2A48AA;
+    color: white;
+    padding: 20px;
+    min-height: 100vh; /* Đảm bảo phần personal kéo dài theo trang */
+}
+
+.leftContent {
+    background-color: white;
+    padding: 40px;
+    flex-grow: 1; /* Đảm bảo phần bên phải chiếm toàn bộ không gian còn lại */
+}
+
+
 html {
     background-color: #eee;
     color: #555;
