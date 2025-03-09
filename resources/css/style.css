@@ -1,5 +1,4 @@
 * {
-    font-family: 'Arial', sans-serif; line-height: 1.6;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -36,7 +35,7 @@ tml, body {
 html {
     background-color: #eee;
     color: #555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    font-family: 'Arial', sans-serif; line-height: 1.6;
     font-weight: 400;
     font-size: 20px;
     text-rendering: optimizeLegibility;
@@ -225,7 +224,7 @@ h3::after {
 
 .exp-place {
     font-weight: 400;
-    opacity: 0.7;
+    opacity: 0.8;
     font-size: 14px;
     margin-top: 2px;
 }
@@ -275,8 +274,7 @@ h3::after {
 .skills {
     margin-top: 20px;
     flex-grow: 1;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .skills:last-child {
