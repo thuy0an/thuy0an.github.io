@@ -274,6 +274,7 @@ h3::after {
 .skills {
     margin-top: 20px;
     flex-grow: 1;
+    font-family: Arial, sans-serif;
 }
 
 .skills:last-child {
