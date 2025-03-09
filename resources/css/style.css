@@ -10,26 +10,7 @@ tml, body {
     padding: 0;
 }
 
-.row {
-    display: flex;
-    min-height: 100vh; /* Đảm bảo row chiếm toàn bộ chiều cao viewport */
-}
 
-.personal {
-    background-color: #2A48AA;
-    color: white;
-    padding: 20px;
-    min-height: 100vh; /* Đảm bảo phần personal kéo dài theo trang */
-}
-
-.leftContent {
-    background-color: white;
-    padding: 40px;
-    flex-grow: 1;
-    min-height: 100vh; /* Đảm bảo luôn chiếm đủ chiều cao màn hình */
-    display: flex;
-    flex-direction: column;
-}
 
 
 html {
