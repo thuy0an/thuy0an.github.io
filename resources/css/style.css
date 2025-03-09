@@ -25,7 +25,10 @@ tml, body {
 .leftContent {
     background-color: white;
     padding: 40px;
-    flex-grow: 1; /* Đảm bảo phần bên phải chiếm toàn bộ không gian còn lại */
+    flex-grow: 1;
+    min-height: 100vh; /* Đảm bảo luôn chiếm đủ chiều cao màn hình */
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -270,6 +273,7 @@ h3::after {
 
 .skills {
     margin-top: 20px;
+    flex-grow: 1;
 }
 
 .skills:last-child {
@@ -277,16 +281,15 @@ h3::after {
 }
 
 .skill-container {
-    margin-top: 10px;
-    height: 20px;
-    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-title {
-    font-size: 75%;
-    font-weight: 700;
-    margin: 0;    
+    white-space: nowrap;
+    flex: 1;
 }
+
 
 .skill-bg {
     background: #eee;
