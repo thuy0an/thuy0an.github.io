@@ -21,4 +21,4 @@
 ​
  
 - **Loss**  
-Loss = $\frac{a}{b}$
+Loss = $\frac-{1}{m}$
