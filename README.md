@@ -21,4 +21,7 @@
 ​
  
 - **Loss**  
-Loss = $\frac{-1}{m}$
+Loss = $\frac{-1}{m}\sum_{i = 1}^{m} [ylog(]$
+
+
+	$y_{i}$
